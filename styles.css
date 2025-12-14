@@ -120,6 +120,10 @@ a {
   gap: 0.9rem;
 }
 
+.hero-ctas.secondary-row {
+  margin-top: 1.2rem;
+}
+
 .tagline {
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -187,126 +191,23 @@ a {
   filter: brightness(1.07);
 }
 
-/* SECTIONS */
-
-.section {
-  padding: 3.7rem 0;
+.btn.small-btn {
+  padding-inline: 1.1rem;
+  font-size: 0.9rem;
 }
 
-.section.light {
-  background: radial-gradient(circle at top, #202744 0, var(--bg-dark) 65%);
-}
+/* WAITLIST FORM */
 
-.section.dark {
-  background: radial-gradient(circle at top, #050710 0, var(--bg-deep) 70%);
-}
-
-.section h2 {
-  font-size: 1.7rem;
-  margin-bottom: 0.8rem;
-}
-
-.section-lead {
-  max-width: 44rem;
-  color: var(--text-muted);
-  line-height: 1.7;
-}
-
-/* GRID & CARDS */
-
-.grid-3 {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.4rem;
-  margin-top: 2.2rem;
-}
-
-.card {
-  background: var(--card);
-  border-radius: var(--radius);
-  padding: 1.35rem 1.25rem 1.5rem;
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-soft);
-}
-
-#proof .card {
-  border-color: rgba(240, 255, 143, 0.35);
-}
-
-.card h3 {
-  margin-top: 0;
-  margin-bottom: 0.4rem;
-  font-size: 1.02rem;
-}
-
-.card p {
-  font-size: 0.93rem;
-  color: var(--text-muted);
-  line-height: 1.65;
-}
-
-.card.ghost {
-  background: radial-gradient(circle at top, var(--accent-soft), var(--bg-mid));
-}
-
-/* LISTS */
-
-ul.bullets {
-  margin: 1.6rem 0 0.8rem;
-  padding-left: 1.2rem;
-}
-
-ul.bullets li {
-  margin-bottom: 0.45rem;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-}
-
-/* FOOTER */
-
-.site-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  background: #05060d;
-  padding: 1.2rem 0;
-  font-size: 0.82rem;
-  color: var(--text-muted);
-}
-
-.footer-inner {
+.waitlist-form {
+  margin-top: 1.4rem;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.7rem;
   align-items: center;
-  gap: 0.8rem;
 }
 
-.small {
-  font-size: 0.86rem;
-  color: var(--text-muted);
-  margin-top: 1.5rem;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 900px) {
-  .hero-inner {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .hero-diagram {
-    order: -1;
-  }
-  .grid-3 {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .nav {
-    display: none; /* simple mobile nav for now */
-  }
-}
-
-@media (max-width: 600px) {
-  .hero {
-    padding-top: 3.2rem;
-  }
-  .hero-text h1 {
-    font-size: 2.1rem;
-  }
-}
+.waitlist-form input {
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  backgr
