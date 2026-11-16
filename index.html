@@ -1,334 +1,207 @@
-<link rel="stylesheet" href="styles.css" />
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elevated Lives – Inner Net, SoulPrints, Evolution Engine</title>
-  <meta name="description"
-        content="Elevated Lives is a proof-first Inner Net on Polygon. Turn mind, body, and soul into encrypted SoulPrints, MoM Coin coinscience, and evolution quests you own." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elevated Lives · Gamify consciousness, not clicks</title>
+  <meta name="description" content="Elevated Lives is a proof-first Inner Net: your focus, breath and intentions become private, encrypted SoulPrints you own. Join the waitlist." />
+  <meta name="theme-color" content="#06050f" />
+  <meta property="og:title" content="Elevated Lives · Gamify consciousness, not clicks" />
+  <meta property="og:description" content="Your presence is proof. Your proof is freedom. Join the Inner Net waitlist." />
+  <meta property="og:url" content="https://elevatedlives.xyz/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-        rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo">ELEVATED LIVES</div>
-      <nav class="nav">
-        <a href="#innernet">Inner Net</a>
+  <div class="sky" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Elevated Lives home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".5" stop-color="#5eead4"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient></defs><circle cx="16" cy="16" r="14" fill="none" stroke="url(#lg)" stroke-width="1.6"/><circle cx="16" cy="16" r="8.5" fill="none" stroke="url(#lg)" stroke-width="1.6" opacity=".7"/><circle cx="16" cy="16" r="3.2" fill="url(#lg)"/></svg>
+        Elevated Lives
+      </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#loop">Inner Net</a>
         <a href="#soulprints">SoulPrints</a>
         <a href="#proof">Proof</a>
-        <a href="#artists">SoulPrint Ink</a>
+        <a href="#artists">Artists</a>
         <a href="#roadmap">Roadmap</a>
-        <a href="#support">Support</a>
       </nav>
+      <a class="btn glow sm" href="#support">Founding Supporter</a>
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <p class="eyebrow">INNER NET • SOULPRINTS • EVOLUTION ENGINE</p>
-        <h1>Gamifying consciousness, not clicks.</h1>
-        <p class="hero-sub">
-          The old internet sold your attention as a product. Elevated Lives is
-          a proof‑first Inner Net on Polygon: your focus, breath, and intentions
-          become encrypted SoulPrints and e‑consciousness currency you own.
-        </p>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow"><b></b> Inner Net · SoulPrints · Evolution Engine</span>
+          <h1>Gamify consciousness, <span class="g">not clicks.</span></h1>
+          <p class="lead">The old internet sold your attention. Elevated Lives turns your focus, breath and intentions into private, encrypted <strong>SoulPrints</strong> you own, and a game that rewards you for coming back to yourself.</p>
 
-        <!-- WAITLIST FORM -->
-        <form class="waitlist-form"
-              action="https://api.sheetmonkey.io/form/hH3A5X5kkmMaRqUTX7F9iK"
-              method="post">
-          <input type="email"
-                 name="email"
-                 placeholder="Enter your email for early access"
-                 required />
-          <input type="text"
-                 name="context"
-                 placeholder="What are you most curious about? (optional)" />
-          <input type="hidden"
-                 name="source"
-                 value="elevatedlives.xyz-hero" />
-          <!-- SheetMonkey timestamp helper -->
-          <input type="hidden"
-                 name="timestamp"
-                 value="x-sheetmonkey-current-date-time" />
-          <!-- Redirect to thank-you page after successful submit -->
-          <input type="hidden"
-                 name="x-sheetmonkey-redirect"
-                 value="https://elevatedlives.xyz/thank-you.html" />
-
-          <button type="submit" class="btn primary small-btn">
-            Join the waitlist
-          </button>
-        </form>
-
-        <p class="small">
-          We use your email only for Elevated Lives updates and early access invites.
-          No spam, no ad reselling.
-        </p>
-
-        <div class="hero-ctas secondary-row">
-          <a class="btn secondary" href="#artists">
-            For artists &amp; studios
-          </a>
+          <form class="form" action="https://api.sheetmonkey.io/form/hH3A5X5kkmMaRqUTX7F9iK" method="post">
+            <input type="email" name="email" placeholder="Your email" required autocomplete="email" aria-label="Email" />
+            <button type="submit" class="btn glow">Join the waitlist</button>
+            <input class="full" type="text" name="context" placeholder="What are you most curious about? (optional)" aria-label="What are you most curious about" />
+            <input type="hidden" name="source" value="elevatedlives.xyz-hero" />
+            <input type="hidden" name="timestamp" value="x-sheetmonkey-current-date-time" />
+            <input type="hidden" name="x-sheetmonkey-redirect" value="https://elevatedlives.xyz/thank-you.html" />
+          </form>
+          <div class="trust"><span>Early access invites</span><span>No spam</span><span>Never sold or shared</span></div>
         </div>
 
-        <p class="tagline">
-          Your presence is proof. Your proof is freedom.
-        </p>
-      </div>
-
-      <div class="hero-diagram glow-card">
-        <!-- Make sure this file exists at /img/Holistic-Growth-Framework.png -->
-        <img src="img/Holistic-Growth-Framework.png"
-             alt="Inner Net diagram: Mind, Body, and Soul feeding a Vault that encrypts and proves your growth." />
-      </div>
-    </div>
-  </section>
-
-  <!-- INNER NET -->
-  <section id="innernet" class="section light">
-    <div class="container">
-      <h2>The Inner Net loop</h2>
-      <p class="section-lead">
-        Mind (reflection), Body (breath &amp; biometrics), and Soul (intention)
-        flow into a private Vault. Elevated Lives makes that loop visible,
-        encrypted, and usable – without handing your inner world to ad networks.
-      </p>
-
-      <div class="grid-3">
-        <div class="card">
-          <h3>Mind – reflection</h3>
-          <p>
-            Aura Resonance check‑ins, journaling, and guided prompts capture how
-            you think and feel over time – a living mirror of your inner story.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Body – breath &amp; biometrics</h3>
-          <p>
-            Optional breathwork, movement, and biometric streams connect your
-            nervous system to your narrative so growth isn’t just in your head.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Soul – intention</h3>
-          <p>
-            Commitments, rituals, and moments of return become anchor points in
-            your SoulPrint – proof to yourself that you came back and moved.
-          </p>
+        <div class="orb" aria-hidden="true">
+          <svg viewBox="0 0 440 440">
+            <defs>
+              <radialGradient id="core"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".35" stop-color="#c4b5fd"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
+              <linearGradient id="ring" x1="0" x2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".5" stop-color="#5eead4"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
+            </defs>
+            <circle cx="220" cy="220" r="200" fill="none" stroke="rgba(255,255,255,.06)"/>
+            <g class="spin"><circle cx="220" cy="220" r="170" fill="none" stroke="url(#ring)" stroke-width="1.2" stroke-dasharray="2 10"/><circle cx="390" cy="220" r="7" fill="#5eead4"/></g>
+            <g class="spin2"><circle cx="220" cy="220" r="125" fill="none" stroke="url(#ring)" stroke-width="1.4" opacity=".7"/><circle cx="220" cy="95" r="6" fill="#c4b5fd"/><circle cx="111" cy="282" r="5" fill="#f9a8d4"/></g>
+            <g class="spin"><circle cx="220" cy="220" r="82" fill="none" stroke="rgba(255,255,255,.18)" stroke-dasharray="1 6"/></g>
+            <circle class="pulse" cx="220" cy="220" r="64" fill="url(#core)"/>
+            <circle cx="220" cy="220" r="18" fill="#fff" opacity=".9"/>
+          </svg>
+          <div class="tag m">Mind<small>reflection</small></div>
+          <div class="tag b">Body<small>breath</small></div>
+          <div class="tag s">Soul<small>intention</small></div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SOULPRINTS & EVOLUTION ENGINE -->
-  <section id="soulprints" class="section dark">
-    <div class="container">
-      <h2>SoulPrints &amp; the Evolution Engine</h2>
-      <p class="section-lead">
-        SoulPrints are non‑transferable records of who you became in a moment –
-        not collectibles to flip. The Evolution Engine reads those records and
-        turns them into next moves: quests, reflections, and rewards that keep
-        you growing.
-      </p>
-
-      <div class="grid-3">
-        <div class="card ghost">
-          <h3>SoulPrints on Polygon</h3>
-          <p>
-            Every major turning point can be minted as a SoulPrint NFT on
-            Polygon – soulbound‑style, with story‑rich metadata stored via
-            decentralized IPFS‑backed storage.
-          </p>
+    <!-- LOOP -->
+    <section id="loop">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="kicker">The Inner Net loop</span>
+          <h2>Mind, body and soul, <span class="g">in one private vault.</span></h2>
+          <p class="lead">Three streams flow into a Vault only you hold the keys to. Elevated Lives makes the loop visible and usable, without handing your inner world to ad networks.</p>
         </div>
-        <div class="card ghost">
-          <h3>Evolution Engine</h3>
-          <p>
-            A rules engine that looks at your patterns – wins, slips,
-            reflections – and surfaces the next right experiment. Less doom
-            feed, more deliberate evolution.
-          </p>
-        </div>
-        <div class="card ghost">
-          <h3>E‑consciousness currency</h3>
-          <p>
-            MoM Coin rewards attention, honesty, and follow‑through. It is
-            coinscience: e‑consciousness currency that tracks how often you
-            return to yourself and uplift the collective Inner Net.
-          </p>
+        <div class="grid g3">
+          <article class="card rv"><span class="num">01</span>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#c4b5fd" stroke-width="1.8" stroke-linecap="round"><path d="M12 3a6 6 0 0 0-6 6c0 2.5 1.5 3.8 2.5 5 .6.8.9 1.6.9 2.5V18h5.2v-1.5c0-.9.3-1.7.9-2.5 1-1.2 2.5-2.5 2.5-5a6 6 0 0 0-6-6Z"/><path d="M10 21h4"/></svg></div>
+            <h3>Mind · reflection</h3><p>Aura Resonance check-ins, journaling and guided prompts: a living mirror of how you think and feel over time.</p></article>
+          <article class="card rv"><span class="num">02</span>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="1.8" stroke-linecap="round"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></div>
+            <h3>Body · breath</h3><p>Optional breathwork and movement sessions tie how you feel to what you do, so growth isn’t only in your head.</p></article>
+          <article class="card rv"><span class="num">03</span>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#f9a8d4" stroke-width="1.8" stroke-linecap="round"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z"/></svg></div>
+            <h3>Soul · intention</h3><p>Commitments, rituals and moments of return become anchor points: proof to yourself that you came back and moved.</p></article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- PROOF OVER TRUST -->
-  <section id="proof" class="section light">
-    <div class="container">
-      <h2>From trust to proof</h2>
-      <p class="section-lead">
-        Platforms asked for blind trust and sold your attention. Elevated Lives
-        gives you receipts instead. Proof of Attention and Proof of Connection
-        turn your own focus into the pillar: when you show up with mind, body,
-        and soul, the system records it as a SoulPrint and rewards it with
-        coinscience.
-      </p>
-
-      <div class="grid-3">
-        <div class="card">
-          <h3>Proof of Attention</h3>
-          <p>
-            Sessions, breaths, reflections, and Sigil Sessions generate PoA
-            scores – a privacy‑respecting measure of how deeply you engaged,
-            not how long you doomscrolled.
-          </p>
+    <!-- SOULPRINTS -->
+    <section id="soulprints">
+      <div class="wrap split">
+        <div class="rv">
+          <span class="kicker">SoulPrints &amp; the Evolution Engine</span>
+          <h2>A record of who you <span class="g">became.</span></h2>
+          <p class="lead">A SoulPrint captures a turning point. It’s yours, it can’t be transferred, and it isn’t a collectible to flip.</p>
+          <ul class="points">
+            <li><span class="dot">✦</span><div><b>Minted on Polygon</b>Big moments can be minted as a soulbound SoulPrint NFT, with its story stored on decentralized IPFS storage.</div></li>
+            <li><span class="dot">⟳</span><div><b>The Evolution Engine</b>Reads your patterns (wins, slips, reflections) and suggests the next right experiment. Less doom feed, more deliberate growth.</div></li>
+            <li><span class="dot">◎</span><div><b>Rewards for showing up</b>Quests and rewards for coming back to yourself, not for scrolling longer.</div></li>
+          </ul>
         </div>
-        <div class="card">
-          <h3>Proof of Connection</h3>
-          <p>
-            When your growth helps others elevate – in circles, studios, or the
-            DAO – those moments can mint additional SoulPrints and MoM Coin.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Data sovereignty</h3>
-          <p>
-            Your Inner Net lives in a Vault with consent‑based sharing and
-            optional on‑chain attestations. You decide what is private, what is
-            public, and what is provable.
-          </p>
+        <div class="rv">
+          <div class="sp">
+            <div class="row"><span>SoulPrint #0001</span><span class="badge">Sample</span></div>
+            <div class="art"><svg viewBox="0 0 100 100" fill="none" stroke="url(#ring)" stroke-width="1.6"><circle cx="50" cy="50" r="44"/><circle cx="50" cy="50" r="30" opacity=".7"/><path d="M50 6v88M6 50h88M19 19l62 62M81 19 19 81" opacity=".35"/><circle cx="50" cy="50" r="7" fill="#c4b5fd" stroke="none"/></svg></div>
+            <h3>Came back to the breath</h3>
+            <p class="small">Day 30 of a morning practice · Intention: “steady, not perfect”</p>
+            <div class="meta"><div><strong>30</strong>days</div><div><strong>Soul</strong>stream</div><div><strong>Yours</strong>only</div></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ARTISTS & STUDIOS -->
-  <section id="artists" class="section dark">
-    <div class="container">
-      <h2>SoulPrint Ink for artists &amp; studios</h2>
-      <p class="section-lead">
-        Bring the Inner Net into the chair. Offer
-        <strong>Sigil Sessions powered by Elevated Lives</strong> – a
-        2‑minute “Find Your Frequency” &amp; Aura Resonance quiz that matches
-        clients with a custom sigil, temp or permanent ink, and a SoulPrint
-        gallery tile they can revisit any time.
-      </p>
-
-      <div class="grid-3">
-        <div class="card ghost">
-          <h3>New ritual revenue</h3>
-          <p>
-            Turn story time into a paid ritual. Sigil Sessions work as a
-            $20–$50 add‑on or a test‑drive path toward bigger pieces and
-            long‑term clients.
-          </p>
+    <!-- PROOF -->
+    <section id="proof">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="kicker">From trust to proof</span>
+          <h2>Receipts, <span class="g">not blind trust.</span></h2>
+          <p class="lead">Platforms asked for blind trust and sold your attention. Elevated Lives gives you receipts instead.</p>
         </div>
-        <div class="card ghost">
-          <h3>Frequency‑based intake</h3>
-          <p>
-            The quiz pulls meaning out of your client – archetype, one‑line
-            intention, suggested placement – so you can focus on art, not
-            therapy.
-          </p>
-        </div>
-        <div class="card ghost">
-          <h3>SoulPrint Ink gallery</h3>
-          <p>
-            Each session creates a story‑based tile – image, meaning, date,
-            artist – in a SoulPrint Ink gallery hosted by Elevated Lives that
-            you can link from your site, IG, and Google profile.
-          </p>
+        <div class="grid g3">
+          <article class="card lit rv"><h3>Proof of Attention</h3><p>Sessions, breaths, reflections and Sigil Sessions produce a private score for how deeply you engaged, not how long you scrolled.</p></article>
+          <article class="card lit rv"><h3>Proof of Connection</h3><p>When your growth helps someone else rise, in circles, studios or the community, those moments earn SoulPrints too.</p></article>
+          <article class="card lit rv"><h3>Data sovereignty</h3><p>Your Vault, your rules. Consent-based sharing and optional on-chain attestations: you decide what’s private, public or provable.</p></article>
         </div>
       </div>
+    </section>
 
-      <p class="small">
-        Ready to pilot Sigil Sessions in your shop? Email
-        <a href="mailto:hello@elevatedlives.xyz">hello@elevatedlives.xyz</a>
-        with “Sigil Sessions” in the subject.
-      </p>
-    </div>
-  </section>
-
-  <!-- ROADMAP -->
-  <section id="roadmap" class="section light">
-    <div class="container">
-      <h2>Evolution roadmap</h2>
-      <p class="section-lead">
-        Elevated Lives is an ecosystem. SoulPrint Ink is the on‑ramp; the
-        Evolution Engine, MoM Coin, and avatars expand the field over time.
-      </p>
-
-      <div class="grid-3">
-        <div class="card">
-          <h3>Now – Proof‑first Inner Net</h3>
-          <p>
-            Inner Net loop, Vault, basic Proof of Attention scores, and
-            SoulPrint Ink pilots with artists and studios.
-          </p>
+    <!-- ARTISTS -->
+    <section id="artists">
+      <div class="wrap split flip">
+        <div class="rv">
+          <span class="kicker">SoulPrint Ink · for artists &amp; studios</span>
+          <h2>Bring the Inner Net <span class="g">into the chair.</span></h2>
+          <p class="lead">Sigil Sessions: a 2-minute “Find Your Frequency” quiz that matches a client with a custom sigil, temporary or permanent ink, and a SoulPrint gallery tile.</p>
+          <ul class="points">
+            <li><span class="dot">1</span><div><b>New ritual revenue</b>A $20–$50 add-on, or a test drive toward bigger pieces and long-term clients.</div></li>
+            <li><span class="dot">2</span><div><b>Frequency-based intake</b>The quiz draws out an archetype, a one-line intention and a suggested placement, so you can focus on the art.</div></li>
+            <li><span class="dot">3</span><div><b>A gallery that sells for you</b>Each session becomes a story tile (image, meaning, date, artist) you can link from your site, Instagram and Google profile.</div></li>
+          </ul>
+          <p style="margin-top:26px"><a class="btn ghost" href="mailto:hello@elevatedlives.xyz?subject=Sigil%20Sessions">Pilot Sigil Sessions in your shop →</a></p>
         </div>
-        <div class="card">
-          <h3>Next – Wallet &amp; MoM Coin</h3>
-          <p>
-            Polygon wallet integration, off‑chain to on‑chain MoM Coin bridge,
-            and IPFS‑backed SoulPrint minting from the app or studio.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Soon – Aura avatars &amp; DAO</h3>
-          <p>
-            Aura Resonance avatars that evolve with your SoulPrints, plus an
-            Emotional Intelligence DAO to steer what kinds of attention and
-            connection the system rewards.
-          </p>
+        <div class="rv">
+          <div class="quiz">
+            <div class="row" style="display:flex;justify-content:space-between"><span class="small">Find Your Frequency · 2 of 3</span><span class="badge">Sample</span></div>
+            <div class="q">What are you calling in this year?</div>
+            <div class="chips"><span>Courage</span><span class="on">Clarity</span><span>Peace</span><span>Momentum</span><span>Love</span></div>
+            <div class="bar"><i></i></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SUPPORT -->
-  <section id="support" class="section dark">
-    <div class="container">
-      <h2>Become a Founding Supporter</h2>
-      <p class="section-lead">
-        If you want a proof‑first Inner Net in the world sooner, back the build.
-        Founding Supporters get in first.
-      </p>
+    <!-- ROADMAP -->
+    <section id="roadmap">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="kicker">Evolution roadmap</span>
+          <h2>Built in the open, <span class="g">one layer at a time.</span></h2>
+          <p class="lead">SoulPrint Ink is the on-ramp. The Evolution Engine, rewards and avatars expand the field over time.</p>
+        </div>
+        <div class="road">
+          <article class="card rv"><span class="when now">● Now</span><h3>Proof-first Inner Net</h3><p>The Inner Net loop, the Vault, first Proof of Attention scores, and SoulPrint Ink pilots with artists and studios.</p></article>
+          <article class="card rv"><span class="when next">● Next</span><h3>Wallet &amp; SoulPrint minting</h3><p>Polygon wallet connection and IPFS-backed SoulPrint minting from the app or the studio.</p></article>
+          <article class="card rv"><span class="when soon">● Soon</span><h3>Aura avatars &amp; the community</h3><p>Avatars that evolve with your SoulPrints, and a community that helps steer which kinds of attention and connection get rewarded.</p></article>
+        </div>
+      </div>
+    </section>
 
-      <ul class="bullets">
-        <li><strong>SoulPrint NFT early access:</strong> mint your first SoulPrint before the public when minting opens.</li>
-        <li><strong>Priority access</strong> to early builds of the Evolution Engine.</li>
-        <li><strong>Sigil Sessions docs</strong> and future drops, first.</li>
-        <li><strong>Your name on the Founders wall</strong> (only if you want it there).</li>
-      </ul>
+    <!-- SUPPORT -->
+    <section id="support">
+      <div class="wrap">
+        <div class="offer rv">
+          <span class="eyebrow"><b></b> Founding Supporters</span>
+          <h2>Back the build. <span class="g">Get in first.</span></h2>
+          <div class="price">$111 <small>one time</small></div>
+          <ul class="perks">
+            <li><b>SoulPrint NFT early access:</b> mint your first SoulPrint before the public, when minting opens.</li>
+            <li><b>Priority access</b> to early builds of the Evolution Engine.</li>
+            <li><b>Sigil Sessions docs</b> and future drops, first.</li>
+            <li><b>Your name on the Founders wall</b>, only if you want it there.</li>
+          </ul>
+          <a class="btn glow" href="https://buy.stripe.com/6oUeVd3Z74wCgPffdj18c00" target="_blank" rel="noopener">Become a Founding Supporter · $111</a>
+          <p class="small">Paid securely through Stripe, with a receipt by email. This is support for the build, not an investment: SoulPrints are non-transferable records of your own journey with no cash or resale value, and supporting the build doesn’t buy coins, tokens or a share of anything.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-      <a class="btn stripe"
-         href="https://buy.stripe.com/6oUeVd3Z74wCgPffdj18c00"
-         target="_blank" rel="noopener">
-        Become a Founding Supporter · $111
-      </a>
-
-      <p class="small">
-        One‑time $111, paid securely through Stripe, with a receipt by email.
-        This is support for the build, not an investment: SoulPrints are
-        non‑transferable records of your own journey, with no cash or resale value,
-        and supporting the build doesn’t buy coins, tokens or a share of anything.
-      </p>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> Elevated Lives Inc.</span>
-      <span>Your presence is proof. Your proof is freedom.</span>
+  <footer>
+    <div class="wrap">
+      <span>© <span id="year"></span> Elevated Lives Inc. · Your presence is proof. Your proof is freedom.</span>
+      <a href="mailto:hello@elevatedlives.xyz">hello@elevatedlives.xyz</a>
     </div>
   </footer>
 
